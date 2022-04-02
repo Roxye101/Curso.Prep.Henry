@@ -112,8 +112,15 @@ function empiezaConNueve(n) {
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
-  //Escribe tu código aquí  
-  
+  //Escribe tu código aquí 
+  [2,2,2,2,2,2]
+  for(var i = 0; i< arreglo.lenght-1; i++) {
+    if(arreglo [i] !== arreglo[i+1]){
+      return false
+    }
+  }
+  return true;
+
 } 
 
 
@@ -122,6 +129,11 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  var arrayConLosMeseEncontrados = [];
+  for (var i = 0; )
+
+
+  
 }
 
 
